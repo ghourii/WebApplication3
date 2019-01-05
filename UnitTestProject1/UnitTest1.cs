@@ -9,7 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            var actual = MathHelper.Add(1, 1);
+            var actual = MathHelper.Add(2, 1);
             var expected = 2;
             Assert.AreEqual(expected, actual);
 
