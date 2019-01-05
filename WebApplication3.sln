@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication3", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{5C9C1C9D-CB9E-424C-9C9E-CA0E48FE4000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcDivide", "CalcDivide\CalcDivide.csproj", "{D4EEDFAB-33DC-4D47-AB71-89DA2B5279A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5C9C1C9D-CB9E-424C-9C9E-CA0E48FE4000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9C1C9D-CB9E-424C-9C9E-CA0E48FE4000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9C1C9D-CB9E-424C-9C9E-CA0E48FE4000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EEDFAB-33DC-4D47-AB71-89DA2B5279A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EEDFAB-33DC-4D47-AB71-89DA2B5279A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EEDFAB-33DC-4D47-AB71-89DA2B5279A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EEDFAB-33DC-4D47-AB71-89DA2B5279A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

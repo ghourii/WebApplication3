@@ -9,14 +9,15 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            var actual = MathHelper.Add(2, 1);
-            var expected = 2;
-            Assert.AreEqual(expected, actual);
+            int expected = 15;
+            int numerator = 20;
+            int denominotor = 4;
+
+                int actual = CalcDivide.Calculator.Divide(numerator, denominotor);
+            Assert.AreEqual(expected,actual);
+
 
         }
     }
-    public class MathHelper
-    {
-        public static int Add(int a, int b) => a + b;
-}
+    
 }
